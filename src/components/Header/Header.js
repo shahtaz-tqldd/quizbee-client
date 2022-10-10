@@ -8,6 +8,7 @@ const Header = () => {
         <div className='header-text'>
             <h3>Take a quick quiz Now</h3>
             <p>Welcome to quiz bee. Quiz bee allow you to take quizes in your preferred programming topics.</p>
+            <button>Get started</button>
         </div>
         <div className='header-image'>
             <img src={headerImg} alt='quiz team' />

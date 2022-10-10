@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #fffbd9, #b0f4ff);
+    background-image: linear-gradient(to right, rgb(193, 247, 255), #b0f4ff);
     padding: 80px 40px;
     margin: 50px 0;
     border-radius: 20px;
@@ -16,14 +16,29 @@
 .header-text{
     width: 500px;
 }
-.header-text p{
-    font-size: 18px;
-    color: rgb(10, 57, 60);
-    margin: 10px 0 0 0;
-}
 .header-text h3{
     font-size: 2rem;
     color: rgb(6, 188, 143);
     text-transform: uppercase;
     margin: 0;
+}
+.header-text p{
+    font-size: 18px;
+    color: rgb(10, 57, 60);
+    margin: 10px 0 0 0;
+}
+.header-text button{
+    background-color: rgb(6, 188, 143);
+    color: #fff7ee;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-text button:hover{
+    transition: 0.25s;
+    background-color: rgb(11, 216, 165);
 }

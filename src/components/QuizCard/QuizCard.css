@@ -1,0 +1,10 @@
+.quiz-card{
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 20px;
+}
+.quiz-card img{
+    width: 50%;
+}
