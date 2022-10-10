@@ -1,0 +1,32 @@
+nav{
+    background-color: rgb(132, 222, 255);
+    padding: 10px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo span{
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-logo img{
+    height: 40px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+    margin: 0 20px;
+}
+.nav-items a:hover{
+    color: rgb(1, 153, 255);
+    transition: 0.25s;
+}
