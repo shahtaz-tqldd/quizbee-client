@@ -7,7 +7,6 @@ const Navbar = () => {
     return (
         <nav>
             <div className='nav-container'>
-
                 <div className='nav-logo'>
                     <Link to='/'>
                         <img src={logo} alt="quiz bee"></img>
