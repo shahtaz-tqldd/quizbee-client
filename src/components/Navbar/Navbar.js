@@ -9,8 +9,10 @@ const Navbar = () => {
             <div className='nav-container'>
 
                 <div className='nav-logo'>
-                    <img src={logo} alt="quiz bee"></img>
-                    <span>quiz bee</span>
+                    <Link to='/'>
+                        <img src={logo} alt="quiz bee"></img>
+                        <span>quiz bee</span>
+                    </Link>
                 </div>
                 <div className='nav-items'>
                     <Link to='/topics'>Topics</Link>
