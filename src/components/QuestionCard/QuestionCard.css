@@ -84,3 +84,16 @@ Correct Answer
 .unclicked{
     background-color: rgba(36, 2, 55, 0.4);
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .question-options{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .question-options{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px 0;
+    }
+}

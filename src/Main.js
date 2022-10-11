@@ -6,7 +6,7 @@ import './App.css';
 
 const Main = () => {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
       <div className='outlet'>
         <Outlet />

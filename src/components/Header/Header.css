@@ -1,10 +1,10 @@
-.header-container{
+.header-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #d4f1ff 10%, #b5e0f6 40%, #18b2ff 100%);
-    /* background-image: url('../../images/bg.png'); */
+    /* background-image: linear-gradient(to right, #d4f1ff 10%, #b5e0f6 40%, #18b2ff 100%); */
+    background-image: url('../../images/bg.png');
     /* background-color: #ffdec9; */
     background-position: top;
     background-size: cover;
@@ -13,27 +13,32 @@
     border-radius: 20px;
 }
 
-.header-image img{
+.header-image img {
     height: 250px;
 }
 
-.header-text{
+.header-text {
     width: 500px;
 }
-.header-text h3{
-    font-size: 2.4rem;
-    font-weight: 900;
+
+.header-text h3 {
+    font-size: 2.8rem;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
     color: rgb(6, 188, 143);
     text-transform: uppercase;
     margin: 0;
 }
-.header-text p{
+
+.header-text p {
     font-size: 20px;
-    text-shadow: 0 0 10px 0 rgba(0,0,0, 0.4);
+    text-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
     color: rgb(10, 57, 60);
     margin: 10px 0 0 0;
 }
-.header-text button{
+
+.header-text button {
     background-color: rgb(6, 188, 143);
     color: #fff7ee;
     font-size: 16px;
@@ -44,7 +49,52 @@
     cursor: pointer;
 }
 
-.header-text button:hover{
+.header-text button:hover {
     transition: 0.25s;
     background-color: rgb(11, 216, 165);
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header-container {
+        padding: 35px 60px;
+    }
+    .header-image img {
+        height: 200px;
+        margin-top: 40px;
+    }
+    .header-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-container {
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .header-image img {
+        height: 120px;
+        margin-top: 30px;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+
+    .header-text h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .header-text p {
+        font-size: 14px;
+    }
+
+    .header-text button {
+        font-size: 12px;
+        padding: 6px 12px;
+
+    }
+
 }

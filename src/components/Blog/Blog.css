@@ -1,12 +1,19 @@
 .blog-card{
     background-color: rgb(51, 146, 255, 0.2);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 30px 20px;
 }
 
 .blog-card img{
     height: 200px;
     width: 200px;
+    border-radius: 10px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .blog-card{
+        margin: 30px 0;
+    }
 }

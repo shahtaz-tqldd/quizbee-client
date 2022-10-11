@@ -4,7 +4,7 @@ import './Blog.css'
 const Blog = ({ blog }) => {
     const { title, body, img } = blog
     return (
-        <div className='blog-card blog-diplay'>
+        <div className='blog-card'>
             <div>
                 <img src={img} alt={title} />
             </div>

@@ -18,7 +18,7 @@ const StatPage = () => {
       <h2>Graph of Total Question</h2>
       <div className='chart'>
 
-        <BarChart width={730} height={350} data={data}>
+        <BarChart  width={730} height={350} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
