@@ -1,11 +1,16 @@
 import React from 'react'
 import './QuestionCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const QuestionCard = ({ ques, index }) => {
     const { question, correctAnswer, id, options } = ques
     return (
         <div className='question-container'>
-            <span>Question No. {index +1}</span>
+            <div className='question-head'>
+                <span>Question No. {index +1}</span>
+                <FontAwesomeIcon className='see-answer' icon ={faEye} />
+            </div>
             <div className='question-title' dangerouslySetInnerHTML={{ __html: question }}></div>
             
             <div className='question-options'>
