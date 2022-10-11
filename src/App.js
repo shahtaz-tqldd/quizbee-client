@@ -44,9 +44,9 @@ function App() {
         },
         {
           path: '/blogs',
-          // loader: async() => {
-          //   return fetch('https://openapi.programming-hero.com/api/quiz')
-          // },
+          loader: async() => {
+            return fetch('blog.json')
+          },
           element: <BlogPage />,
         },
         

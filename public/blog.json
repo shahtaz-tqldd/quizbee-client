@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "What is the Purpose of React Router?",
+        "body": "React router is one of the most powerful routing library. The main purpose of this library is to access different components or layout in different rotuing path. React itself is a single page web application. All the pages work under one single index html file. So, when multiple pages are to be created, different roting are required to use. For example, <b>Homepage</b> may be in a url path: 'app-name/homepage'. And there is another page, for say <b>About page</b> which is in a rout 'app-name/abput'. React router help us to go into these different route and access different pages.",
+        "img": "https://reactrouter.com/twitterimage.jpg"
+    },
+    {
+        "id": "2",
+        "title": "How does context API work?",
+        "body": "In React there is one directional data flow exist. The state or data that can be flown from it's parent to immidiate child component. So, when there is a children of children component to any parent element, The data are to be sent to immidiate children and that children can send the data to it's immidiate children. This process can be lengthy and complex when there are lot of children components. That's where context API comes in. Context API is declared in the parent components. And any data or state can be access fro any children component there after. No immidite data flow like before are needed if we use Context API.",
+        "img": "https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png"
+    },
+    {
+        "id": "3",
+        "title": "What is useRef Hook?",
+        "body": "useRef is another important Hook for persist value between render. It can be used to store a mutable value that does not cause a re-render when updated. The powerful thing about this hook is that it can be used to access a DOM element directly. The useful thing about useRef is that it does not cause re renders. If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render. To avoid this, we can use the useRef Hook.",
+        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--fBV9Brp0--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qnwi8ehe64zysba5y195.png"
+    }
+]
