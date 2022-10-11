@@ -1,5 +1,5 @@
 .question-container {
-    background-color: rgb(225, 255, 255, 0.2);
+    background-color: rgb(63, 67, 80);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -50,7 +50,7 @@
 }
 
 .option{
-    background-color: rgba(36, 2, 55, 0.4);
+    background-color: rgb(42, 45, 54);;
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;

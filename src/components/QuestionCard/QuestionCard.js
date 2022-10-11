@@ -17,11 +17,11 @@ const QuestionCard = ({ ques, index }) => {
     const handleClickedAnswer = (id, index) => {
         const right = options[index]
         if (right === correctAnswer) {
-            console.log('right')
-            alert('Right Answer')
+            toast.success('Right Answer',
+                { position: toast.POSITION.TOP_CENTER })
         } else {
-            console.log('wrong')
-            alert('Wrong Answer')
+            toast.error('Wrong Answer',
+                { position: toast.POSITION.TOP_CENTER })
         }
         // console.log(id, index, right)
         // setColor(!color)
@@ -58,9 +58,9 @@ const QuestionCard = ({ ques, index }) => {
                         // <div onClick={()=> handleClickedAnswer(id, index)} className={`option ${color? 'clicked' : 'unclicked'}`}>
                         <div onClick={() => handleClickedAnswer(id, index)} className={`option`}>
                             {`${ans}. `}{op}
-                            
+
                         </div>
-                        
+
                     )
                 })}
             </div>

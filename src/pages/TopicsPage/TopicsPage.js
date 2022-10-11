@@ -8,7 +8,7 @@ const TopicsPage = () => {
     console.log(quiz)
     return (
         <div className='topic'>
-            <h2>Take a Quiz on a Topic Now</h2>
+            <h2>Take a Quiz on Your Preferred Topic</h2>
             <div className='quiz-container'>
                 {
                     quiz.data.map(sub => <QuizCard key={sub.id} topic={sub} />)
