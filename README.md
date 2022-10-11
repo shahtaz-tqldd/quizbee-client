@@ -1,6 +1,7 @@
 # Quiz Bee
 
 ### Live Website Link
+https://quizbeenew.netlify.app/
 
 
 ## About this Project
