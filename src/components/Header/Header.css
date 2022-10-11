@@ -3,7 +3,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, rgb(193, 247, 255), #b0f4ff);
+    background-image: linear-gradient(to right, #d4f1ff 10%, #b5e0f6 40%, #18b2ff 100%);
+    /* background-image: url('../../images/bg.png'); */
+    /* background-color: #ffdec9; */
+    background-position: top;
+    background-size: cover;
     padding: 80px 40px;
     margin: 50px 0;
     border-radius: 20px;
@@ -17,13 +21,15 @@
     width: 500px;
 }
 .header-text h3{
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 900;
     color: rgb(6, 188, 143);
     text-transform: uppercase;
     margin: 0;
 }
 .header-text p{
-    font-size: 18px;
+    font-size: 20px;
+    text-shadow: 0 0 10px 0 rgba(0,0,0, 0.4);
     color: rgb(10, 57, 60);
     margin: 10px 0 0 0;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './QuizCard.css'
-const QuizCard = ({ topic, handleQuizScreen }) => {
+const QuizCard = ({ topic }) => {
     const { logo, name, total, id } = topic
     return (
         <div className='quiz-card'>

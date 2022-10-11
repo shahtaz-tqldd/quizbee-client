@@ -1,5 +1,9 @@
-.quiz-container{
+.quizContainer{
     color: aliceblue;
     max-width: 1200px;
     margin: 0 auto;
+}
+.quizContainer h2{
+    text-align: center;
+    margin: 30px 0;
 }
