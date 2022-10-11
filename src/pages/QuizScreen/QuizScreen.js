@@ -7,9 +7,9 @@ const QuizScreen = () => {
   const {name, questions} = data.data
   return (
     <div className='quizContainer'>
-      <h2>{name}</h2>
+      <h2>Quiz on {name}</h2>
       <div>
-        {questions.map(ques => <QuestionCard key={ques.id} ques={ques} /> )}
+        {questions.map((ques, index) => <QuestionCard key={ques.id} index={index} ques={ques} /> )}
       </div>
     </div>
   )

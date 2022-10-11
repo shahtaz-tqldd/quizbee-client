@@ -1,7 +1,48 @@
-.question-container{
+.question-container {
     background-color: rgb(225, 255, 255, 0.2);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     width: 100%;
+}
+.question-container span{
+    background-color: rgb(255, 140, 91);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(30, 30, 30);
+}
+
+.question-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.question-title p span {
+    color: rgb(223, 223, 223) !important;
+}
+
+.question-title p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(223, 223, 223) !important;
+}
+
+/* Question Option */
+.question-options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 30px;
+}
+
+.option{
+    background-color: rgba(36, 2, 55, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: rgba(36, 2, 55, 0.6);
+    transition: 0.2s;
 }
