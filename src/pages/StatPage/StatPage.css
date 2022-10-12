@@ -6,13 +6,23 @@
 }
 
 .chart{
-    margin-left: -40px;
+    margin-left: -20px;
     z-index: -1;
+    width: 60vw;
+    height: 60vh;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-   
+    .chart{
+        margin-left: -10px;
+        width: 90vw;
+        height: 40vh;
+    }
 }
 @media screen and (max-width: 767px) {
-    
+    .chart{
+        margin-left: -10px;
+        width: 90vw;
+        height: 40vh;
+    }
 }

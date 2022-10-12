@@ -17,18 +17,19 @@ const StatPage = () => {
     <div className='graph'>
       <h2>Graph of Total Question</h2>
       <div className='chart'>
-
-        <BarChart width={500} height={300} data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="React" fill="#82ca9d" />
-          <Bar dataKey="Javascript" fill="#6dd5ed" />
-          <Bar dataKey="CSS" fill="#eeca9c" />
-          <Bar dataKey="Git" fill="#f7797d" />
-        </BarChart>
+        <ResponsiveContainer className={'chart'}>
+          <BarChart width={500} height={300} data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="React" fill="#82ca9d" />
+            <Bar dataKey="Javascript" fill="#6dd5ed" />
+            <Bar dataKey="CSS" fill="#eeca9c" />
+            <Bar dataKey="Git" fill="#f7797d" />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </div>
 
