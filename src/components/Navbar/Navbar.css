@@ -1,5 +1,5 @@
 nav{
-    background-color: rgb(132, 222, 255);
+    background-color: rgb(3, 199, 140);
     padding: 10px;
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@ nav{
     font-size: 24px;
     font-weight: 600;
     margin-left: 12px;
-    color: rgb(40, 47, 47);
+    color: rgb(255, 255, 255);
     font-family: 'Play', sans-serif;
     
 }
@@ -28,12 +28,51 @@ nav{
     height: 40px;
 }
 
+.nav-items{
+    display: block !important;
+}
 .nav-items a{
     text-decoration: none;
-    color: rgb(52, 52, 52);
+    color: rgb(255, 255, 255);
     margin: 0 20px;
 }
 .nav-items a:hover{
-    color: rgb(1, 153, 255);
+    color: rgb(255, 234, 176);
     transition: 0.25s;
+}
+
+.toggle-icon{
+    display: none;
+    color: #fff;
+}
+.toggle-icon svg{
+    width: 35px;
+}
+
+@media screen and (max-width: 767px) {
+    .toggle-icon{
+        display: block;
+    }
+    .nav-items{
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(3, 199, 140, 0.97);;
+        height: 100vh;
+        width: 50%;
+    }
+    .nav-items a{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .shown{
+        top: 60px;
+        left: 0;
+        transition: 0.5s;
+    }
+    .hide{
+        top: 60px;
+        left: -55%;
+        transition: 0.5s;
+    }
 }

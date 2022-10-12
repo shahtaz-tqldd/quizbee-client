@@ -3,9 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /* background-image: linear-gradient(to right, #d4f1ff 10%, #b5e0f6 40%, #18b2ff 100%); */
-    background-image: url('../../images/bg.png');
-    /* background-color: #ffdec9; */
+    background-image: linear-gradient(to right, #b6ffce, #5ee4ff);
     background-position: top;
     background-size: cover;
     padding: 80px 40px;
