@@ -7,6 +7,7 @@
 
 .chart{
     margin-left: -40px;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
