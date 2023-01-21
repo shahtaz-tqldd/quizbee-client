@@ -4,12 +4,11 @@ import Blog from '../../components/Blog/Blog';
 import './BlogPage.css';
 
 const BlogPage = () => {
-  const blogs = useLoaderData()
-  console.log(blogs)
+  const blogdata = useLoaderData()
   return (
     <div>
       {
-        blogs.map(blog => <Blog key={blog.id} blog={blog} />)
+        blogdata.map(blog => <Blog key={blog.id} blog={blog} />)
       }
     </div>
   )
